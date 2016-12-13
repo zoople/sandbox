@@ -3,7 +3,13 @@
 
 int getNumber()
 {
-	return 5;
+	int number;
+	
+	std::cout << "Choose a number: ";
+	
+	std::cin >> number; 
+
+	return number;
 }
 
 void doStuff(int a)
